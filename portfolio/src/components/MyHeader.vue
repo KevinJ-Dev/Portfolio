@@ -26,7 +26,7 @@
                     </li>
                     <li>
                       <a href="#" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:origin-right before:scale-x-0 before:bg-red-600 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
-                        <span class="relative group-hover:text-cyan-800">Expérience</span>
+                        <span class="relative group-hover:text-cyan-800">Expériences</span>
                       </a>
                     </li>
                     <li>
