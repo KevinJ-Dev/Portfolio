@@ -18,7 +18,7 @@
             <img src="../assets/Competences.png" class="w-16 m-auto" width="512" height="512" alt="package-delivery illustration">
             <h4 class="text-2xl text-gray-800 font-medium transition group-hover:text-red-800">Compétences</h4>
             <h4 class="text-2xl text-gray-800 font-medium transition group-hover:text-red-800">Front end</h4>
-            <p class="text-gray-600">HTML CSS BOOTSTRAP ANGULAR <br> REACT SASS PHP JAVASCRIPT</p>
+            <p class="text-gray-600">HTML CSS BOOTSTRAP ANGULAR VUE.JS <br> REACT SASS PHP JAVASCRIPT TAILWINDCSS</p>
             <h4 class="text-2xl text-gray-800 font-medium transition group-hover:text-red-800">Back end</h4>
             <p class="text-gray-600">SQL MONGODB EXPRESS NODE.JS JQUERY <br> REACT SASS PHP JAVASCRIPT</p>
           </div>
