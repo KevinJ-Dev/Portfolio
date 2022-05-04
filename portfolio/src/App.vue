@@ -1,18 +1,21 @@
 <template>
   <MyHeader></MyHeader>
   <MyPresentation></MyPresentation>
-<!--  <img alt="Vue logo" src="./assets/logo.png">-->
+  <SoftSkill></SoftSkill>
+
 </template>
 
 <script>
 import MyHeader from "@/components/MyHeader";
 import MyPresentation from "@/components/MyPresentation";
+import SoftSkill from "@/components/SoftSkill";
 
 export default {
   name: 'App',
   components: {
     MyHeader,
     MyPresentation,
+    SoftSkill,
   }
 }
 </script>
