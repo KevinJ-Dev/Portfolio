@@ -1,67 +1,193 @@
 <template>
-  <div class="container m-auto px-6 space-y-8 md:px-12 lg:px-20">
-    <ol class="relative border-l border-gray-200 dark:border-gray-700">
-      <li class="mb-10 ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-red-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-red-900">
-          <svg class="w-3 h-3 text-blue-600 dark:text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Application UI v2.0.0 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-800 ml-3">TOTO</span></h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">DATE COUCOU</time>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Lorem j'aime lorem</p>
-        <a href="#" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a>
-      </li>
+  <div class="container">
+    <div class="m-auto text-center md:w-8/12 lg:w-6/12">
+      <h2 class="py-16 text-2xl text-black font-bold md:text-4xl">Formations <span class="text-red-600">/</span> Expériences</h2>
+    </div>
+    <div
+        class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-red-50">
+      <!-- left -->
+      <!--Epitech-->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-gray-50 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">EPITECH / WEB@CADEMIE</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            Novembre 2021 - Novembre 2023 <br> Rennes <br><br> Titre RNCP niveau 5 Bac +2
+          </p>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <!--Epitech-->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow">
+          </div>
+        </div>
+        <div class="bg-gray-50 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">WEB@CADEMIE</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            - Piscine 3 semaines immersion shell/php/github <br> - CandyShop E-commerce Angular/Mondb/MySQL/Express/Node.js <br>
+            - Maquette Responsive Html/Css/JavaScript/BEM <br> - Mymeetic Php/Css/MySQL/Phpmyadmin/Bdd <br>
+            - Puissance 4 Html/Css/JavaScript <br> - Morpion Html/Css/JavaScript <br> - Spotify React.js
+          </p>
+        </div>
+      </div>
 
-      <li class="mb-10 ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-red-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-red-900">
-          <svg class="w-3 h-3 text-blue-600 dark:text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Application UI v2.0.0 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-800 ml-3">TOTO</span></h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">DATE COUCOU</time>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Lorem j'aime lorem</p>
-        <a href="#" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a>
-      </li>
-
-      <li class="mb-10 ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-red-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-red-900">
-          <svg class="w-3 h-3 text-blue-600 dark:text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Application UI v2.0.0 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-800 ml-3">TOTO</span></h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">DATE COUCOU</time>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Lorem j'aime lorem</p>
-        <a href="#" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a>
-      </li>
-
-      <li class="mb-10 ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-red-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-red-900">
-          <svg class="w-3 h-3 text-blue-600 dark:text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Application UI v2.0.0 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-800 ml-3">TOTO</span></h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">DATE COUCOU</time>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Lorem j'aime lorem</p>
-        <a href="#" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a>
-      </li>
-
-      <li class="mb-10 ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-red-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-red-900">
-          <svg class="w-3 h-3 text-blue-600 dark:text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Application UI v2.0.0 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-800 ml-3">TOTO</span></h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">DATE COUCOU</time>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Lorem j'aime lorem</p>
-        <a href="#" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a>
-      </li>
-
-      <li class="mb-10 ml-6">
-        <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-red-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-red-900">
-          <svg class="w-3 h-3 text-blue-600 dark:text-red-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg>
-        </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Application UI v2.0.0 <span class="bg-blue-100 text-blue-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-red-200 dark:text-red-800 ml-3">TOTO</span></h3>
-        <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">DATE COUCOU</time>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Lorem j'aime lorem</p>
-        <a href="#" class="inline-flex items-center py-2 px-4 text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"><svg class="mr-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v3.586l-1.293-1.293a1 1 0 10-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 11.586V8z" clip-rule="evenodd"></path></svg> Download ZIP</a>
-      </li>
-
-    </ol>
+<!--Openclassrooms-->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-gray-50 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">OPENCLASSROOMS</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            Décembre 2020 - Aout 2021 <br> 100% en ligne <br><br> Niveau 5 Bac +2
+          </p>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow">
+          </div>
+        </div>
+      </div>
+      <!-- right -->
+      <!--Openclassrooms-->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow"></div>
+        </div>
+        <div class="bg-gray-50 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">OPENCLASSROOMS</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            Décembre 2020 - Aout 2021 <br><br>
+            - Réservia Transformer une maquette en site web Html/Css <br> - Ohmyfood Dynamisez une page avec des animations Css/Sass<br>
+            - La chouette agence Optimisez un site existant SEO <br> - Orinoco Site E-commerce JavaScript/Bootstrap<br>
+            - Piquant Créer une API pour une application gastronomique Node.js/Owasp/Api Rest
+          </p>
+        </div>
+      </div>
+      <!--Commercial Web-->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-gray-50 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">COMMERCIAL WEB</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            Aout 2020 - Octobre 2021 <br> Sarzeau
+          </p>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow">
+          </div>
+        </div>
+      </div>
+      <!-- right -->
+      <!--Pcsys-->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow"></div>
+        </div>
+        <div class="bg-gray-50 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">PCSYS</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            Sarzeau <br><br> Technicien commercial Web / Informatique
+          </p>
+        </div>
+      </div>
+      <!--CAP Couvreur-->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-gray-50 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">Couvreur</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            2019 - 2020 <br> CFA Vannes <br><br>Titre RNCP niveau 3 CAP
+          </p>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <!--Couvreur-->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow"></div>
+        </div>
+        <div class="bg-gray-50 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">SEB & TOIT</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            2019 - 2020 <br> Trinité-Surzur <br><br> Couvreur
+          </p>
+        </div>
+      </div>
+      <!-- right -->
+      <!--Intérimaire-->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow"></div>
+        </div>
+        <div
+            class="bg-gray-50 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">INTERIMAIRE</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            2018 <br><br> Tout type de poste
+          </p>
+        </div>
+      </div>
+      <!--CAP Plombier-->
+      <div class="flex flex-row-reverse md:contents">
+        <div class="bg-gray-50 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">Plombier</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            2015 - 2017 <br> CFA Vannes <br><br>Titre RNCP niveau 3 CAP
+          </p>
+        </div>
+        <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow"></div>
+        </div>
+      </div>
+      <!-- right -->
+      <!--Daniel Morice-->
+      <div class="flex md:contents">
+        <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+          <div class="h-full w-6 flex items-center justify-center">
+            <div class="h-full w-1 bg-red-800 pointer-events-none"></div>
+          </div>
+          <div class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-red-500 shadow"></div>
+        </div>
+        <div class="bg-gray-50 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
+          <h3 class="font-semibold text-lg text-black mb-1">DANIEL MORICE</h3>
+          <p class="leading-tight text-justify text-gray-900">
+            2015 - 2017 <br> Séné <br><br> Plombier / Chauffagiste
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
