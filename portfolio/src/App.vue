@@ -1,6 +1,7 @@
 <template>
   <MyHeader></MyHeader>
   <MyPresentation></MyPresentation>
+  <MyTimeline></MyTimeline>
   <SoftSkill></SoftSkill>
 
 </template>
@@ -8,6 +9,7 @@
 <script>
 import MyHeader from "@/components/MyHeader";
 import MyPresentation from "@/components/MyPresentation";
+import MyTimeline from "@/components/MyTimeline";
 import SoftSkill from "@/components/SoftSkill";
 
 export default {
@@ -15,6 +17,7 @@ export default {
   components: {
     MyHeader,
     MyPresentation,
+    MyTimeline,
     SoftSkill,
   }
 }
