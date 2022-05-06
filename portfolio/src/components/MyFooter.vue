@@ -8,7 +8,7 @@
           <li role="listitem"><a href="#experience" class="hover:text-red-500">Expériences</a></li>
           <li role="listitem"><a href="#projet" class="hover:text-red-500">Projets</a></li>
           <li role="listitem"><a href="#contact" class="hover:text-red-500">Contact</a></li>
-          <li role="listitem"><a href="/CV.pdf" class="hover:text-red-500">Télécharger CV</a></li>
+          <li role="listitem"><a href="/CV.pdf" download class="hover:text-red-500">Télécharger CV</a></li>
         </ul>
         <div class="w-max m-auto flex items-center justify-between space-x-4">
           <a aria-label="Github" href="https://github.com/KevinJ-Dev">
