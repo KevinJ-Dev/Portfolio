@@ -4,11 +4,11 @@
       <div class="container m-auto space-y-6 text-gray-600">
         <img src="../assets/logo.png" alt="logo" class="w-40 m-auto" />
         <ul role="list" class="py-4 flex flex-col gap-4 items-center justify-center sm:flex-row sm:gap-8">
-          <li role="listitem"><a href="#" class="hover:text-red-500">Présentation</a></li>
-          <li role="listitem"><a href="#" class="hover:text-red-500">Expériences</a></li>
-          <li role="listitem"><a href="#" class="hover:text-red-500">Projets</a></li>
-          <li role="listitem"><a href="#" class="hover:text-red-500">Contact</a></li>
-          <li role="listitem"><a href="#" class="hover:text-red-500">Télécharger CV</a></li>
+          <li role="listitem"><a href="#presentation" class="hover:text-red-500">Présentation</a></li>
+          <li role="listitem"><a href="#experience" class="hover:text-red-500">Expériences</a></li>
+          <li role="listitem"><a href="#projet" class="hover:text-red-500">Projets</a></li>
+          <li role="listitem"><a href="#contact" class="hover:text-red-500">Contact</a></li>
+          <li role="listitem"><a href="/CV.pdf" class="hover:text-red-500">Télécharger CV</a></li>
         </ul>
         <div class="w-max m-auto flex items-center justify-between space-x-4">
           <a aria-label="Github" href="https://github.com/KevinJ-Dev">
