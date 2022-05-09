@@ -30,10 +30,12 @@
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Maquette Intro</div>
         <p class="text-gray-700 text-base">
-          En vous appuyant sur le visuel de la maquette responsive, vous devez intégrer une page en HTML5 et CCS3
-          conforme au visuel, respectant les normes du W3C et optimisant au mieux le référencement. <br><br> Le site doit être visible depuis un ordinateur, une tablette ou un téléphone. Les images doivent toujours
-          être affichées à 100%. C’est à dire que vous devez prévoir des images hautes et basses définitions. <br><br>Le redimensionnement du navigateur (de manière à émuler un autre périphérique) doit par conséquent influer sur
-          l’URL des images affichées.
+          En vous appuyant sur le visuel de la maquette, vous devez intégrer une page en HTML5 et CSS3 conforme
+          au visuel, respectant les normes du W3C et optimisant au mieux le référencement.
+          <br><br> Vous devez intégrer un player Youtube avec la vidéo de votre choix. Il se peut que l’affichage diffère légèrement de celui de l’exemple donné avec le sujet.
+          <br><br> Par ailleurs, il faut que la maquette soit “accessible”. Lors de la soutenance, nous poserons des questions
+          liées à “l’accessibilité”. <br><br> les polices à utiliser sont: Oswald, Droid sans et Droid Serif . A vous de trouver un moyen de les importer
+          pour votre intégration.
         </p>
       </div>
       <div class="border-t py-8 px-6 md:px-12 md:py-16 lg:border-t-0 lg:border-l lg:py-0 lg:pr-0 lg:pl-6">
@@ -50,11 +52,16 @@
 
     <!--Card 3-->
     <div class="rounded overflow-hidden shadow-lg">
-      <img class="w-full" src="../assets/MaquetteIntro.png" alt="Responsive">
+      <img class="w-full" src="../assets/Responsive.png" alt="Responsive">
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Responsive</div>
         <p class="text-gray-700 text-base">
-          En
+          En vous appuyant sur le visuel de la maquette responsive, vous devez intégrer une page en HTML5 et CCS3
+          conforme au visuel, respectant les normes du W3C et optimisant au mieux le référencement.
+          <br><br> Le site doit être visible depuis un ordinateur, une tablette ou un téléphone. Les images doivent toujours
+          être affichées à 100%. C’est à dire que vous devez prévoir des images hautes et basses définitions. <br><br>Le redimensionnement du navigateur (de manière à émuler un autre périphérique) doit par conséquent influer sur
+          l’URL des images affichées.
+
         </p>
       </div>
       <div class="border-t py-8 px-6 md:px-12 md:py-16 lg:border-t-0 lg:border-l lg:py-0 lg:pr-0 lg:pl-6">
