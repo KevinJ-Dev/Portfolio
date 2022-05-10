@@ -8,17 +8,34 @@
         <div class="md:7/12 lg:w-6/12">
           <h2 class="text-2xl text-purple-900 font-bold md:text-4xl">Coucou</h2>
           <p class="mt-6 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!</p>
-          <p class="mt-4 text-gray-600"> Nobis minus voluptatibus pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
+          <p class="mt-4 text-gray-600"> Nobis minus voluptati pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
           <p><br></p>
-          <button class="py-2 px-4 bg-red-600 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-75">
-            LinkedIn
-          </button>
-          <button class="py-2 px-4 bg-red-600 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-75">
-            Github
-          </button>
-          <button class="py-2 px-4 bg-red-600 text-white font-semibold rounded-lg shadow-md hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-opacity-75">
-            Mail
-          </button>
+          <div class="grid grid-cols-3 space-x-4 md:space-x-6 md:flex">
+            <a aria-label="Github" href="https://github.com/KevinJ-Dev" class="p-4 border border-gray-200 rounded-md hover:border-red-600 hover:shadow-lg">
+              <div class="flex justify-center space-x-4">
+                <img class="w-6" src="../assets/github.png" alt="Github" loading="lazy" width="128" height="128">
+                <span class="hidden font-medium md:block">Github</span>
+              </div>
+            </a>
+            <a aria-label="Linkedin" href="https://www.linkedin.com/in/k%C3%A9vin-jourdain-211243227/" class="p-4 border border-gray-200 rounded-md hover:border-red-600 hover:shadow-lg">
+              <div class="flex justify-center space-x-4">
+                <img class="w-6" src="../assets/linkedin.png" alt="Linkedin" loading="lazy" width="128" height="128">
+                <span class="hidden font-medium md:block">Linkedin</span>
+              </div>
+            </a>
+            <a aria-label="Mail" href="mailto:kevin.jourdain@epitech.eu" class="p-4 border border-gray-200 rounded-md hover:border-red-600 hover:shadow-lg">
+              <div class="flex justify-center space-x-4">
+                <img class="w-6" src="../assets/Mail.png" alt="Mail" loading="lazy" width="128" height="128">
+                <span class="hidden font-medium md:block">Mail</span>
+              </div>
+            </a>
+<!--            <a aria-label="Phone" href="#" class="p-4 border border-gray-200 rounded-md hover:border-red-600 hover:shadow-lg">-->
+<!--              <div class="flex justify-center space-x-4">-->
+<!--                <img class="w-6" src="../assets/Phone.png" alt="Téléphone" loading="lazy" width="128" height="128">-->
+<!--                <span class="hidden font-medium md:block">Téléphone</span>-->
+<!--              </div>-->
+<!--            </a>-->
+          </div>
         </div>
       </div>
     </div>

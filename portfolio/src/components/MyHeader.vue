@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="sticky top-0 z-50 bg-neutral-50">
       <div class="relative z-20 border-b bg-neutral">
         <div class="px-6 md:px-12 lg:container lg:mx-auto lg:px-6 lg:py-4">
           <div class="flex items-center justify-between">
@@ -20,13 +20,13 @@
                 <div class="flex flex-col h-full justify-between lg:items-center lg:flex-row">
                   <ul class="px-6 pt-32 text-gray-700 space-y-8 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
                     <li>
-                      <a href="#" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:bg-red-600">
+                      <a href="javascript:void(0)" onClick="goToByScroll('1')" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:bg-red-600">
                         <span class="relative text-cyan-800">Présentation</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:origin-right before:scale-x-0 before:bg-red-600 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
-                        <span class="relative group-hover:text-cyan-800">Expérience</span>
+                      <a href="javascript:void(0)" onClick="goToByScroll('2')" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:origin-right before:scale-x-0 before:bg-red-600 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
+                        <span class="relative group-hover:text-cyan-800">Expériences</span>
                       </a>
                     </li>
                     <li>
@@ -42,7 +42,7 @@
                   </ul>
 
                   <div class="border-t py-8 px-6 md:px-12 md:py-16 lg:border-t-0 lg:border-l lg:py-0 lg:pr-0 lg:pl-6">
-                    <a href="#" class="block px-6 py-3 rounded bg-red-600 text-center text-white hover:bg-red-700">
+                    <a href="/CV.pdf" download class="block px-6 py-3 rounded bg-red-600 text-center text-white hover:bg-red-700">
                       Télécharger CV
                     </a>
                   </div>
