@@ -4,6 +4,7 @@
   <MyTimeline></MyTimeline>
   <SoftSkill></SoftSkill>
   <MyProject></MyProject>
+  <MyForm></MyForm>
   <MyFooter></MyFooter>
 
 </template>
@@ -14,6 +15,7 @@ import MyPresentation from "@/components/MyPresentation";
 import MyTimeline from "@/components/MyTimeline";
 import SoftSkill from "@/components/SoftSkill";
 import MyProject from "@/components/MyProject";
+import MyForm from "@/components/MyForm";
 import MyFooter from "@/components/MyFooter";
 
 export default {
@@ -24,6 +26,7 @@ export default {
     MyTimeline,
     SoftSkill,
     MyProject,
+    MyForm,
     MyFooter,
   }
 }
