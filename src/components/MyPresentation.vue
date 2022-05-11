@@ -6,9 +6,12 @@
           <img src="../assets/Moi.png" alt="Moi" loading="lazy" width="" height="">
         </div>
         <div class="md:7/12 lg:w-6/12">
-          <h2 class="text-2xl text-purple-900 font-bold md:text-4xl">Qui suis-je ?</h2>
-          <p class="mt-6 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis voluptatem accusantium nemo perspiciatis delectus atque autem! Voluptatum tenetur beatae unde aperiam, repellat expedita consequatur! Officiis id consequatur atque doloremque!</p>
-          <p class="mt-4 text-gray-600"> Nobis minus voluptati pariatur dignissimos libero quaerat iure expedita at? Asperiores nemo possimus nesciunt dicta veniam aspernatur quam mollitia.</p>
+          <h2 class="text-2xl text-red-900 font-bold md:text-4xl">Qui suis-je ?</h2>
+          <p class="mt-6 text-gray-600">Bienvenue sur mon portfolio ! je m'appel Kévin, passionner par le monde du numérique plus particulièrement le développement web.</p>
+          <p class="mt-4 text-gray-600"> J'ai commencer le developpement web à l'âge de 17, 18 ans en étant autodidact, je suivais des cours/tuto sur YouTube, j'ai ensuite investie dans des formations chez Udemy et sur d'autre platforme.</p>
+          <p class="mt-6 text-gray-600">J'ai suivie une formation intensive chez Openclassrooms sur une période de 6 mois, et aujourd'hui je suis en formation chez Epitech/Web@cadémie pour une durée de 2 ans de niveau 5 Bac +2</p>
+          <p class="mt-6 text-gray-600 font-bold">Je suis actuelement à la recherche d'un contrat d'alternance qui commencerais <br> 12 Septembre 2022 au 20 Octobre 2023 sur une cadence de 1 semaine à l'école et 3 semaines en entreprise. <br><br>Voici ci dessou pour me contacter.</p>
+
           <p><br></p>
           <div class="grid grid-cols-3 space-x-4 md:space-x-6 md:flex">
             <a aria-label="Github" href="https://github.com/KevinJ-Dev" class="p-4 border border-gray-200 rounded-md hover:border-red-600 hover:shadow-lg">
