@@ -1,4 +1,7 @@
 <template>
+  <div class="m-auto text-center md:w-8/12 lg:w-6/12" id="projet">
+    <h2 class="py-16 text-2xl text-black font-bold md:text-4xl">Projets</h2>
+  </div>
   <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
     <!--Card 1-->
     <div class="rounded overflow-hidden shadow-lg">

@@ -20,23 +20,23 @@
                 <div class="flex flex-col h-full justify-between lg:items-center lg:flex-row">
                   <ul class="px-6 pt-32 text-gray-700 space-y-8 md:px-12 lg:space-y-0 lg:flex lg:space-x-12 lg:pt-0">
                     <li>
-                      <a href="javascript:void(0)" onClick="goToByScroll('1')" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:bg-red-600">
-                        <span class="relative text-cyan-800">Présentation</span>
+                      <a href="#presentation" onClick="goToByScroll('1')" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:bg-red-600">
+                        <span class="relative text-red-800">Présentation</span>
                       </a>
                     </li>
                     <li>
-                      <a href="javascript:void(0)" onClick="goToByScroll('2')" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:origin-right before:scale-x-0 before:bg-red-600 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
-                        <span class="relative group-hover:text-cyan-800">Expériences</span>
+                      <a href="#experience" onClick="goToByScroll('2')" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:origin-right before:scale-x-0 before:bg-red-600 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
+                        <span class="relative group-hover:text-red-800">Expériences</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:origin-right before:scale-x-0 before:bg-red-600 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
-                        <span class="relative group-hover:text-cyan-800">Projets</span>
+                      <a href="#projet" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:origin-right before:scale-x-0 before:bg-red-600 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
+                        <span class="relative group-hover:text-red-800">Projets</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:origin-right before:scale-x-0 before:bg-red-600 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
-                        <span class="relative group-hover:text-cyan-800">Contact</span>
+                      <a href="#contact" class="group relative before:absolute before:inset-x-0 before:bottom-0 before:h-1 before:origin-right before:scale-x-0 before:bg-red-600 before:transition before:duration-200 hover:before:origin-left hover:before:scale-x-100">
+                        <span class="relative group-hover:text-red-800">Contact</span>
                       </a>
                     </li>
                   </ul>
