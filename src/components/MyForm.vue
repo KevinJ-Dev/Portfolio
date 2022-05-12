@@ -1,6 +1,5 @@
 <template>
   <div id="contact">
-    <h1>TEST contact</h1>
   </div>
 </template>
 
